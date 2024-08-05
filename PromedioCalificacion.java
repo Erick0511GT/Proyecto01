@@ -27,6 +27,7 @@ public class PromedioCalificacion {
         int notaC = scan.nextInt(); //calificacion 3
         System.out.println("Ingrese su calificacion D");
         int notaD = scan.nextInt();  //calificacion 4 
+        scan.close();
         int Suma = notaA +notaB + notaC + notaD;  /* se realiza la suma de los 4 resultados */
         float Promedio = Suma / 4; // esta linea realiza la division del resultado de la suma de las 4 calificaciones y nos dara el promedio
         System.out.println("El promedio obtenido es : "+Promedio);
